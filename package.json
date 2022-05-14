@@ -1,0 +1,28 @@
+{
+  "name": "tptptptpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon out/server.js",
+    "dev": "nodemon -r ./env.js src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/express-handlebars": "^6.0.0",
+    "@types/express-session": "^1.17.4",
+    "@types/pg": "^8.6.5"
+  }
+}
